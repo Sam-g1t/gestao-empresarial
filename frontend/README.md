@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+# 🏢 Gestão Empresarial
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Sistema completo para gerenciamento de **produtos**, **fornecedores** e suas **associações**, com painel de **dashboard** e interface amigável. Desenvolvido com **Node.js** no backend e **React.js + React-Bootstrap** no frontend.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📚 Descrição
 
-### `npm start`
+Este projeto tem fins acadêmicos e demonstra como criar um sistema **full-stack** com:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Backend Node.js + Express + SQLite
+- Frontend React.js + React-Bootstrap
+- CRUD completo com tratamento de erros
+- Associação entre entidades (produtos e fornecedores)
+- Dashboard com estatísticas do sistema
+- Interface moderna e intuitiva
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🚀 Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💻 Frontend
+- React.js
+- React-Bootstrap
+- Axios
 
-### `npm run build`
+### 🛠️ Backend
+- Node.js
+- Express
+- SQLite3
+- Cors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Estrutura do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+gestao-empresarial/ ├── backend/ │ ├── controllers/ │ ├── database/ │ ├── routes/ │ ├── index.js ├── frontend/ │ ├── public/ │ ├── src/ │ │ ├── pages/ │ │ ├── components/ │ │ ├── App.js │ │ ├── index.js ├── README.md
 
-### `npm run eject`
+yaml
+Copiar
+Editar
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## ⚙️ Como Executar Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Clone o repositório
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#  ```bash
+# git clone https://github.com/Sam-g1t/gestao-empresarial.git
+# cd gestao-empresarial
 
-## Learn More
+## 2. Instale e execute o backend
+# bash
+# Copiar
+# Editar
+# cd backend
+# npm install
+# node index.js
+# O backend será iniciado em: http://localhost:3001
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##  3. Instale e execute o frontend
+# bash
+# Copiar
+# Editar
+# cd ../frontend
+# npm install
+# npm start
+# O frontend abrirá automaticamente em: http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📊 Funcionalidades
+# ✅ Cadastro, edição e exclusão de produtos
 
-### Code Splitting
+# ✅ Cadastro, edição e exclusão de fornecedores
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# ✅ Associação entre produtos e fornecedores
 
-### Analyzing the Bundle Size
+# ✅ Validação de dados e tratamento de erros
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# ✅ Painel de dashboard com estatísticas
 
-### Making a Progressive Web App
+# ✅ Interface responsiva com React-Bootstrap
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 📦 Requisitos
+# Node.js v18+
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# NPM
 
-### Deployment
+# SQLite (já embutido via dependência sqlite3)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# 🧠 Aprendizados
+# Este projeto foi uma oportunidade para aprender e aplicar:
 
-### `npm run build` fails to minify
+## Integração entre frontend e backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Roteamento com Express
+
+# Componentização em React
+
+# Consumo de APIs com Axios
+
+# Estilização com React-Bootstrap
+
+# Gerenciamento de estado com useState/useEffect
+
+## 📄 Licença
+# Este projeto é de uso livre para fins de estudo e aprendizado.
+# Sinta-se à vontade para usar, modificar e aprimorar!
+
+## 👤 Autor
+# Desenvolvido por Sam-g1t
+# 🔗 GitHub: https://github.com/Sam-g1t
